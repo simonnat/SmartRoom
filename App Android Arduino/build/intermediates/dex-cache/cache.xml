@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="C:\Users\Simone\AndroidStudioProjects\arduino\app\build\intermediates\pre-dexed\debug\support-v4-13.0.0-be38cb6c53d999bc842c45e267ec03abc8117e20.jar"
+        jar="C:\Users\Simone\AppData\Local\Android\android-studio\sdk\extras\android\m2repository\com\android\support\support-v4\13.0.0\support-v4-13.0.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="3fe75433da602500cc71fcc1c46e5550291dd45d"/>
+
+</pre-dex-items>

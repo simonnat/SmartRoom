@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Connetti"
+        android:id="@+id/btnConnect"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/txt"
+        android:layout_alignEnd="@+id/txt" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Giuseppe ON"
+        android:id="@+id/ledGiuseppeOn"
+        android:layout_below="@+id/btnConnect"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Giuseppe OFF"
+        android:id="@+id/ledGiuseppeOff"
+        android:layout_alignTop="@+id/ledGiuseppeOn"
+        android:layout_alignParentRight="true" />
+
+    <SeekBar
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ledGiuseppe"
+        android:layout_below="@+id/ledGiuseppeOn"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="15dp"
+        android:max="255"
+        android:progress="5"
+        android:indeterminate="false" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Simone ON"
+        android:id="@+id/ledSimoneOn"
+        android:layout_below="@+id/fatto"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <SeekBar
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ledSimone"
+        android:layout_below="@+id/ledSimoneOn"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="15dp"
+        android:max="255"
+        android:progress="5"
+        android:indeterminate="false" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Temperatura"
+        android:id="@+id/temperatura"
+
+        android:layout_below="@+id/ledSimone"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="43dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+
+        android:id="@+id/txt"
+        android:layout_alignBottom="@+id/temperatura"
+        android:layout_alignRight="@+id/ledSimone"
+        android:layout_alignEnd="@+id/ledSimone"
+        android:layout_alignTop="@+id/temperatura" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Spegni B."
+        android:id="@+id/bluetoothOff"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/temperatura"
+        android:layout_alignEnd="@+id/temperatura" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Disconnetti"
+        android:id="@+id/disconnect"
+
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Carica Cell."
+        android:id="@+id/charge"
+        android:layout_alignBottom="@+id/disconnect"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Simone OFF"
+        android:id="@+id/ledSimoneOff"
+        android:layout_below="@+id/fatto"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fatto"
+        android:id="@+id/fatto"
+        android:layout_below="@+id/ledGiuseppe"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fatto"
+        android:id="@+id/fatto1"
+
+
+        android:layout_above="@+id/txt"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Carica Computer"
+        android:id="@+id/chargeComp"
+        android:layout_above="@+id/bluetoothOff"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout><!-- From: file:/C:/Users/Simone/AndroidStudioProjects/arduino/app/src/main/res/layout/main.xml -->

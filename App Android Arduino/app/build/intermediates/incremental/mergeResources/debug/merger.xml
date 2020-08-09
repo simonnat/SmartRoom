@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="main" >
+        <source path="C:\Users\Simone\AndroidStudioProjects\arduino\app\src\main\res" >
+            <file
+                name="ic_launcher"
+                path="C:\Users\Simone\AndroidStudioProjects\arduino\app\src\main\res\drawable-hdpi\ic_launcher.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="C:\Users\Simone\AndroidStudioProjects\arduino\app\src\main\res\drawable-mdpi\ic_launcher.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="example_appwidget_preview"
+                path="C:\Users\Simone\AndroidStudioProjects\arduino\app\src\main\res\drawable-nodpi\example_appwidget_preview.png"
+                qualifiers="nodpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="C:\Users\Simone\AndroidStudioProjects\arduino\app\src\main\res\drawable-xhdpi\ic_launcher.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="C:\Users\Simone\AndroidStudioProjects\arduino\app\src\main\res\drawable-xxhdpi\ic_launcher.png"
+                qualifiers="xxhdpi-v4"
+                type="drawable" />
+            <file
+                name="activity_led_simone"
+                path="C:\Users\Simone\AndroidStudioProjects\arduino\app\src\main\res\layout\activity_led_simone.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="main"
+                path="C:\Users\Simone\AndroidStudioProjects\arduino\app\src\main\res\layout\main.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="led_simone"
+                path="C:\Users\Simone\AndroidStudioProjects\arduino\app\src\main\res\menu\led_simone.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="main"
+                path="C:\Users\Simone\AndroidStudioProjects\arduino\app\src\main\res\menu\main.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                path="C:\Users\Simone\AndroidStudioProjects\arduino\app\src\main\res\values\dimens.xml"
+                qualifiers="" >
+                <dimen name="activity_vertical_margin" >16dp
+                </dimen>
+                <dimen name="widget_margin" >8dp
+                </dimen>
+                <dimen name="activity_horizontal_margin" >16dp
+                </dimen>
+            </file>
+            <file
+                path="C:\Users\Simone\AndroidStudioProjects\arduino\app\src\main\res\values\strings.xml"
+                qualifiers="" >
+                <string name="hello_world" >Hello world!
+                </string>
+                <string name="appwidget_text" >EXAMPLE
+                </string>
+                <string name="add_widget" >Add widget
+                </string>
+                <string name="action_settings" >Settings
+                </string>
+                <string name="app_name" >arduino
+                </string>
+                <string name="title_activity_led_simone" >ledSimone
+                </string>
+            </file>
+            <file
+                path="C:\Users\Simone\AndroidStudioProjects\arduino\app\src\main\res\values\styles.xml"
+                qualifiers="" >
+
+                <style
+                    name="AppTheme"
+                    parent="android:Theme.Holo.Light.DarkActionBar" >
+
+                    <!-- Customize your theme here. -->
+                </style>
+            </file>
+            <file
+                path="C:\Users\Simone\AndroidStudioProjects\arduino\app\src\main\res\values-v14\dimens.xml"
+                qualifiers="v14" >
+                <dimen name="widget_margin" >0dp
+                </dimen>
+            </file>
+            <file
+                path="C:\Users\Simone\AndroidStudioProjects\arduino\app\src\main\res\values-w820dp\dimens.xml"
+                qualifiers="w820dp-v13" >
+                <dimen name="activity_horizontal_margin" >64dp
+                </dimen>
+            </file>
+        </source>
+        <source path="C:\Users\Simone\AndroidStudioProjects\arduino\app\build\generated\res\rs\debug" />
+        <source path="C:\Users\Simone\AndroidStudioProjects\arduino\app\build\generated\res\generated\debug" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="C:\Users\Simone\AndroidStudioProjects\arduino\app\src\debug\res" />
+    </dataSet>
+
+</merger>
